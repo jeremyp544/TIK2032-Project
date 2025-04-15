@@ -3,22 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Gallery - Portofolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    
-    <section>
-        <h2>Gallery</h2>
-        <p>Kumpulan foto-foto saya.</p>
-        <img src="image1.jpg" alt="Foto 1">
-        <img src="image2.jpg" alt="Foto 2">
-        <img src="image3.jpg" alt="Foto 3">
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Le<span>nz</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/FotoBL.jpg" alt="Proyek 1">
+                    <div class="overlay">
+                        <h3>Foto 1</h3>
+                        <p> BL </p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/profil2.jpg" alt="Proyek 2">
+                    <div class="overlay">
+                        <h3>Foto 2</h3>
+                        <p>KRI 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Alam1.jpg" alt="Proyek 3">
+                    <div class="overlay">
+                        <h3>Fotografi 1</h3>
+                        <p>Potret Alam</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/foto nugas.jpg" alt="Proyek 4">
+                    <div class="overlay">
+                        <h3>Foto Random</h3>
+                        <p>Diagram</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/imagekucing.png" alt="Proyek 5">
+                    <div class="overlay">
+                        <h3>Kucing</h3>
+                        <p>Nntau spa punya</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/EMEL.jpg" alt="Proyek 6">
+                    <div class="overlay">
+                        <h3>MLBB</h3>
+                        <p>Season depan pasti immortal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Saya. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jeremy.pongdatu.2025/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/`usernameanda" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/chris.alnn/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/usernameanda" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

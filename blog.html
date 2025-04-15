@@ -3,33 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Blog - Portofolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    
-    <section>
-        <h2>Blog</h2>
-        <article>
-            <h3>Pengenalan Informatika</h3>
-            <p>Informatika adalah ilmu yang mempelajari pengolahan data dengan memanfaatkan teknologi komputer.</p>
-            <a href="https://id.wikipedia.org/wiki/Informatika" target="_blank">Baca selengkapnya</a>
-        </article>
-        <article>
-            <h3>Perkembangan Teknologi Komputer</h3>
-            <p>Teknologi komputer berkembang pesat dari generasi ke generasi.</p>
-            <a href="https://id.wikipedia.org/wiki/Sejarah_komputer" target="_blank">Baca selengkapnya</a>
-        </article>
-        <article>
-            <h3>Keamanan Siber dan Perlindungan Data</h3>
-            <p>Keamanan siber menjadi aspek krusial dalam era digital.</p>
-            <a href="https://id.wikipedia.org/wiki/Keamanan_komputer" target="_blank">Baca selengkapnya</a>
-        </article>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Le<span>nz</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <section class="blog-section">
+        <div class="container">
+            <h2>Artikel Terbaru</h2>
+            <div class="blog-posts">
+                <!-- Artikel 1 -->
+                <article class="blog-post">
+                    <img src="images/blogcss.png" alt="Tips Web Design">
+                    <div class="post-content">
+                        <h3><a href="#">10 Tips Web Design Modern untuk 2023</a></h3>
+                        <p class="post-meta">Diposting pada 15 Juni 2023 | Sumber: <a href="https://www.creativebloq.com" target="_blank">Creative Blog</a></p>
+                        <p>Desain web terus berkembang. Berikut 10 trend terbaru yang akan mendominasi tahun 2023 mulai dari dark mode hingga micro-interactions...</p>
+                        <a href="https://www.creativebloq.com/features/web-design-trends" target="_blank" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                
+                <!-- Artikel 2 -->
+                <article class="blog-post">
+                    <img src="images/blogfotografi.png" alt="Fotografi Pemula">
+                    <div class="post-content">
+                        <h3><a href="#">10 Langkah Belajar Fotografi Basic untuk Pemula - Step by step</a></h3>
+                        <p class="post-meta">Diposting pada 9 April 2019 | Sumber: <a href="https://jagofoto.com" target="_blank">JagoFoto</a></p>
+                        <p>Kalau Anda mendapatkan artikel ini, ada beberapa hal yang bisa Anda pelajari dari awal belajar fotografi. Mulai dari pengenalan teknis sampai pada menciptakan foto yang keren...</p>
+                        <a href="https://jagofoto.com/belajar-fotografi" target="_blank" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                
+                <!-- Artikel 3 -->
+                <article class="blog-post">
+                    <img src="images/csstricks.png" alt="CSS Modern">
+                    <div class="post-content">
+                        <h3><a href="#">Teknik CSS Modern yang Harus Diketahui</a></h3>
+                        <p class="post-meta">Diposting pada 5 Juni 2023 | Sumber: <a href="https://css-tricks.com" target="_blank">CSS-Tricks</a></p>
+                        <p>CSS terus berkembang dengan fitur-fitur baru seperti container queries, :has selector, dan subgrid. Pelajari cara memanfaatkannya untuk layout yang lebih fleksibel...</p>
+                        <a href="https://css-tricks.com/modern-css-techniques/" target="_blank" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Saya. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jeremy.pongdatu.2025/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/`usernameanda" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/chris.alnn/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/usernameanda" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
